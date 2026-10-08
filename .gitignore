@@ -1,0 +1,25 @@
+# Compilação e Executáveis
+*.o
+*.obj
+*.out
+*.exe
+*.app
+
+# Arquivos de depuração e diagnósticos
+*.dSYM/
+*.ilk
+*.pdb
+
+# Pastas de build geradas automaticamente (ex: CMake)
+build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Arquivos do Sistema Operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.txt
