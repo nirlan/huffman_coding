@@ -139,10 +139,11 @@ void criaModelo(float prob[])
 		
 	//exibe quantos simbolos de cada letra do alfabeto foram encontrados
 	printf("Valor absoluto de cada simbolo do modelo:\n");		
-	int i=0;		
+	int i=0;
+	char letterArr[]=LETTERS;	
 	while(i!=ALPHABET)
 	{
-		printf("\nLetter %d: %d",i,count[i]);
+		printf("\nLetter %c: %d",letterArr[i],count[i]);
 		i++;	
 	}
 	
@@ -160,8 +161,7 @@ void criaModelo(float prob[])
 	printf("\nTotal de simbolos no texto: %d", totalSimbolos);
 	
 	//calcula a probabilidade de cada simbolo no texto
-	int k=0;
-	//float prob[ALPHABET];	
+	int k=0;	
 	while(k!=ALPHABET)
 	{
 		prob[k]=(float)count[k]/(float)totalSimbolos;
@@ -171,10 +171,10 @@ void criaModelo(float prob[])
 	//exibe a probabilidade de cada de cada letra do alfabeto no texto 
 	printf("\n\nDistribuicao de probabilidade do modelo:\n");
 	int l=0;
-	float checkSump=0;	
+	float checkSump=0;		
 	while(l!=ALPHABET)
 	{
-		printf("\nLetter %d: %.6f",l,prob[l]);
+		printf("\nLetter %c: %.6f",letterArr[l],prob[l]);
 		checkSump+=prob[l];
 		l++;	
 	}
@@ -186,8 +186,7 @@ void criaModelo(float prob[])
 	int w=0;
 	int x=0;
 	float floattemp=.0;
-	char chartemp;
-	char letterArr[]=LETTERS;
+	char chartemp;	
 	while(w!=ALPHABET-1)
 	{		
 		x=w+1;
