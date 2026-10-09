@@ -15,8 +15,7 @@ void criaArrLength(float prob[])
 	while(i!=ALPHABET)
 	{
 		//encontra o primeiro menor número com maior índice
-		if(lowest1>=prob[i]&&i>=imax1&&prob[i]!=0)
-		//if(lowest1>=prob[i]&&i>=imax1)
+		if(lowest1>=prob[i]&&prob[i]!=0)
 		{
 			lowest2=lowest1;
 			imax2=imax1;
@@ -30,7 +29,7 @@ void criaArrLength(float prob[])
 			}			
 		}
 		//rastreia o segundo menor número com maior índice
-		else if(lowest2>=prob[i]&&i>=imax2&&prob[i]!=0)
+		else if(lowest2>=prob[i]&&prob[i]!=0)
 		{
 			lowest2=prob[i];
 			imax2=i;
