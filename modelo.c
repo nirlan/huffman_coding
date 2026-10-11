@@ -49,87 +49,78 @@ void criaModelo(float prob[])
 				break;
 			case 'J':
 				count[9]++;
-				break;
-			case 'K':
+				break;			
+			case 'L':
 				count[10]++;
 				break;
-			case 'L':
+			case 'M':
 				count[11]++;
 				break;
-			case 'M':
+			case 'N':
 				count[12]++;
 				break;
-			case 'N':
+			case 'O':
 				count[13]++;
 				break;
-			case 'O':
+			case 'P':
 				count[14]++;
 				break;
-			case 'P':
+			case 'Q':
 				count[15]++;
 				break;
-			case 'Q':
+			case 'R':
 				count[16]++;
 				break;
-			case 'R':
+			case 'S':
 				count[17]++;
 				break;
-			case 'S':
+			case 'T':
 				count[18]++;
 				break;
-			case 'T':
+			case 'U':
 				count[19]++;
 				break;
-			case 'U':
-				count[20]++;
-				break;
 			case 'V':
+				count[20]++;
+				break;			
+			case 'X':
 				count[21]++;
-				break;
-			case 'W':
+				break;			
+			case 'Z':
 				count[22]++;
 				break;
-			case 'X':
+			case ' ':
 				count[23]++;
 				break;
-			case 'Y':
+			case '0':
 				count[24]++;
 				break;
-			case 'Z':
+			case '1':
 				count[25]++;
 				break;
-			case ' ':
+			case '2':
 				count[26]++;
 				break;
-			case '0':
+			case '3':			
 				count[27]++;
 				break;
-			case '1':
+			case '4':
 				count[28]++;
 				break;
-			case '2':
+			case '5':
 				count[29]++;
 				break;
-			case '3':			
+			case '6':
 				count[30]++;
 				break;
-			case '4':
+			case '7':
 				count[31]++;
 				break;
-			case '5':
+			case '8':
 				count[32]++;
 				break;
-			case '6':
-				count[33]++;
-				break;
-			case '7':
-				count[34]++;
-				break;
-			case '8':
-				count[35]++;
-				break;
 			case '9':
-				count[36]++;
+				count[33]++;
 				break;
 			default:							
 		}		
