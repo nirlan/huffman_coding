@@ -9,7 +9,7 @@ void criaArrLength(float prob[])
 	agrupaNos(prob);
 }
 
-//encontra os dois menores números com maior índice
+//agrupamento de nós e gravação de ponteiros do pai
 static void agrupaNos(float prob[])
 {
 	int folha=0;
