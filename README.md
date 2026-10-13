@@ -1,6 +1,7 @@
-# 📦 Compactador de Huffman
+# 📦 Compactador de Huffman - Stack
 
 Este projeto é uma implementação em **C** do **Algoritmo de Compressão de Huffman**, uma técnica de codificação de entropia usada para compressão de dados sem perdas.
+Foi realizada neste projeto uma alternativa de código em que não seja usada a Heap, somente a Stack.
 
 ## 🚀 Como Executar o Projeto
 
